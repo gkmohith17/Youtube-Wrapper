@@ -1,4 +1,5 @@
 Introduction
+
 The yt_wrapper package is a Python library that encapsulates the YouTube Data API and the YouTube Transcript API, providing a seamless interface for developers to retrieve video details, search for videos, list channel videos, and fetch video transcripts. This package is designed to simplify interactions with YouTube's data and transcript services, making it easier for developers to integrate YouTube content into their applications.
 
 Installation
@@ -114,8 +115,8 @@ Clone your forked repository to your local machine.
 
 bash
 Copy code
-git clone https://github.com/yourusername/yt_wrapper.git
-cd yt_wrapper
+git clone https://github.com/gkmohith17/Youtube-Wrapper.git
+cd Youtube-Wrapper
 Create a New Branch:
 
 Create a new branch for your changes.

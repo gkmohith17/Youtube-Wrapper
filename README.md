@@ -2,35 +2,59 @@ Introduction
 
 The yt_wrapper package is a Python library that encapsulates the YouTube Data API and the YouTube Transcript API, providing a seamless interface for developers to retrieve video details, search for videos, list channel videos, and fetch video transcripts. This package is designed to simplify interactions with YouTube's data and transcript services, making it easier for developers to integrate YouTube content into their applications.
 
+
+
 Installation
+
 Prerequisites
+
 Python Version: Python 3.6 or higher
+
 YouTube Data API Key: You need to obtain an API key from the Google Developers Console.
+
 Installation via Pip
+
 To install the yt_wrapper package, run the following command in your terminal:
 
-bash
-Copy code
+bash - Copy code
+
 pip install yt_wrapper
+
+
 Usage
 1. Importing the Package
+
 python
+
 Copy code
+
 from yt_wrapper import YouTubeAPIWrapper
+
 2. Initializing the API Wrapper
+
 Before using any functions, you need to initialize the YouTubeAPIWrapper class with your API key.
 
 python
 Copy code
+
 api_key = 'YOUR_YOUTUBE_DATA_API_KEY'
+
 yt = YouTubeAPIWrapper(api_key)
+
+
+
 3. Retrieving Video Details
 You can retrieve video details such as title, description, view count, and like count using the get_video_info_and_transcript method.
 
-python
-Copy code
-video_info = yt.get_video_info_and_transcript('VIDEO_ID')
+python - Copy code
+
+video_info = yt.
+get_video_info_and_transcript('VIDEO_ID')
+
 print(video_info['video_details'])
+
+
+
 4. Searching for Videos
 Search for videos based on keywords using the search_videos method.
 
